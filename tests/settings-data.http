@@ -1,0 +1,19 @@
+GET {{host}}/data/settings
+Content-Type: application/json
+Accept-Language: ru_RU
+X-PLUGIN-TOKEN: {{token}}
+
+###
+
+PUT {{host}}/data/settings
+Content-Type: application/json
+Accept-Language: ru_RU
+X-PLUGIN-TOKEN: {{token}}
+
+{
+  "bulk": {
+    "status": ["5"]
+  }
+}
+
+###

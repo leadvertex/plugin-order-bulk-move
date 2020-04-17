@@ -1,0 +1,90 @@
+{
+    "info": [
+        {
+            "source": "PLUGIN_NAME",
+            "translated": "Массовая смена статуса заказов"
+        },
+        {
+            "source": "PLUGIN_DESCRIPTION",
+            "translated": "Перемещение всех выбранных заказов в указанный статус"
+        }
+    ],
+    "process": [
+        {
+            "source": "ERROR_WHILE_GETTING_ORDERS {errors}",
+            "translated": "При получении списка заказов произошли ошибки: {errors}"
+        },
+        {
+            "source": "ERROR_WHILE_MOVING_ORDER {errors}",
+            "translated": "При перемещении заказа в новый статус произошли ошибки: {errors}"
+        }
+    ],
+    "preview_options": [
+        {
+            "source": "ORDERS_DESCRIPTION {ordersCount} {ordersTable}",
+            "translated": "Общее количество заказов для обработки - {ordersCount}.\n{ordersTable}"
+        },
+        {
+            "source": "QUERY_ERRORS_DESCRIPTION {errors}",
+            "translated": "При попытке расчета общего количества обрабатываемых заказов произошли ошибки:\n{errors}"
+        },
+        {
+            "source": "OPTIONS_TITLE",
+            "translated": "Превью"
+        },
+        {
+            "source": "OPTIONS_DESCRIPTION",
+            "translated": "Превью заказов для обработки"
+        },
+        {
+            "source": "GROUP_1",
+            "translated": "Просмотр"
+        },
+        {
+            "source": "FORM_BUTTON",
+            "translated": "ОК"
+        }
+    ],
+    "settings": [
+        {
+            "source": "FORM_TITLE",
+            "translated": "Настройки"
+        },
+        {
+            "source": "FORM_DESCRIPTION",
+            "translated": "Настройки перемещения заказов"
+        },
+        {
+            "source": "FORM_BUTTON",
+            "translated": "ОК"
+        },
+        {
+            "source": "STATUS_LIST_VALIDATION_INVALID_ARGUMENT",
+            "translated": "Некорректный тип значения"
+        },
+        {
+            "source": "STATUS_LIST_VALIDATION_ERROR_MIN {min}",
+            "translated": "Минимальное количество значений: {min}"
+        },
+        {
+            "source": "STATUS_LIST_VALIDATION_ERROR_MIN {max}",
+            "translated": "Максимальное количество значений: {max}"
+        },
+        {
+            "source": "FIELD_GROUP",
+            "translated": "Основные настройки"
+        },
+        {
+            "source": "FIELD_GROUP_DESCRIPTION",
+            "translated": ""
+        },
+        {
+            "source": "STATUS_FIELD",
+            "translated": "Статус"
+        },
+        {
+            "source": "STATUS_FIELD_DESCRIPTION",
+            "translated": "Статус, в который будут перемещены заказы"
+        }
+    ]
+}

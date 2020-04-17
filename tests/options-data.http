@@ -1,0 +1,10 @@
+PUT {{host}}/data/options/1?filters={"statusIds": [1, 2, 3]}
+Content-Type: application/json
+Accept-Language: ru_RU
+X-PLUGIN-TOKEN: {{token}}
+
+{
+}
+
+###
+

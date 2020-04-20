@@ -128,7 +128,7 @@ class Plugin extends MacrosPlugin
     {
         $orders = self::getOrdersToMove(Session::current()->getFsp());
         $targetStatus = Session::current()->getSettings()->getData()->get('bulk.status.0');
-        $process->initialize(count($orders));
+        $process->initialize(count($orders['data']));
         $process->save();
 
         if (!$orders['success']) {
